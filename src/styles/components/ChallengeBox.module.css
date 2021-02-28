@@ -88,15 +88,10 @@
   transition: filter 0.2s;
 }
 
-.challengeActive footer button.chellangeFailedButton {
+.challengeActive footer button.challengeFailedButton {
   background: var(--red);
 }
 
-.challengeActive footer button.chellangeSucceededButton {
-  background: var(--red);
-}
-
-.challengeActive footer button:hover {
-  background: var(--red);
-  filter: brightness(0.9);
+.challengeActive footer button.challengeSucceededButton {
+  background: var(--green);
 }
